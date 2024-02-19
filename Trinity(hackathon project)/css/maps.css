@@ -1,0 +1,20 @@
+
+.carousel {
+  overflow: hidden;
+  border: rgba(0,170,255,0.2) 2px solid;
+  box-shadow: 20px 20px 100px rgba(164,255,164,0.5);
+}
+
+.carousel img {
+  width: 2000px;
+  margin-top: 0;
+
+  height: auto;
+  transition: transform 0.5s ease; /* Add smooth transition effect */
+}
+
+.aboutmaps{
+  width: 1200px;
+  font-size: 100px;
+  color: white;
+}
