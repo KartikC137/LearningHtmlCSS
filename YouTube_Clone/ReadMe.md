@@ -14,3 +14,6 @@ Continuation:
 >slide-in slide-out hamburger menu.
 >Dark mode compatible. 
 
+Links:
+>HTML and CSS course by SuperSimpleDev: https://youtu.be/G3e-cpL7ofc?si=_eLWnTM4Co6CLsXf
+
