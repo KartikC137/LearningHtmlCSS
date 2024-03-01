@@ -1,0 +1,26 @@
+.sidebar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: white;
+  width: 72px;
+  z-index: 200;
+}
+.sidebar-link{
+  display: flex;
+  height: 72px;
+  padding-top: 5px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.sidebar-link img:not(.icon-home,.icon-explore){
+  width: 100%;
+}
+.sidebar-link img:hover{
+  opacity: 0.7;
+}
+.icon-home,.icon-explore{
+  width: 50px;
+}

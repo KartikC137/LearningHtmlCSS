@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>YouTube.com Clone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../CSS/general.css">
+  <link rel="stylesheet" href="../CSS/header.css">
+  <link rel="stylesheet" href="../CSS/video.css">
+  <link rel="stylesheet" href="../CSS/sidebar.css">
+</head>
+<body>
+
+<header class="header">
+
+  <div class="left-sec">
+    <img class="icon-hamburger" src="../IMAGES/Icons/HamburgerMenu.png">
+    <img class="icon-youtube" src="../IMAGES/Icons/YoutubeIcon.png">
+  </div>
+
+  <div class="middle-sec">
+    <input class="search-box" type="text" placeholder="Search">
+    <button class="button-search">
+      <img class="icon-search" src="../IMAGES/Icons/SearchIcon.svg" style="height: 100%;">
+      <div class="tooltip">Search</div>
+    </button>
+    <button class="button-mic">
+      <img class="icon-mic" src="../IMAGES/Icons/MicIcon.png"  style="height: 100%;">
+      <div class="tooltip">Search with your voice</div>
+    </button>
+  </div>
+
+  <div class="right-sec">
+    <div class="icon-upload-div">
+      <img class="icon-upload" src="../IMAGES/Icons/Addvideo.png">
+      <div class="tooltip">Create</div>
+    </div>
+    <div class="icon-more-div">
+      <img class="icon-more" src="../IMAGES/Icons/More.png">
+      <div class="tooltip">YouTube apps</div>
+    </div>
+    <div class="icon-notify-container">
+      <img class="icon-notify" src="../IMAGES/Icons/notifications.png">
+      <div class="notify-counter">3</div>
+      <div class="tooltip">Notifications</div>
+    </div>
+    <img class="icon-current-profile" src="../IMAGES/Profile-Pictures/Channel7.jpg">
+  </div>
+
+</header>
+
+<nav class="sidebar">
+  <div class="sidebar-link">
+    <img class="icon-home" src="../IMAGES/Icons/HomeIcon.png">
+  </div>
+  <div class="sidebar-link">
+    <img class="icon-explore" src="../IMAGES/Icons/ExploreIcon.png">
+  </div>
+  <div class="sidebar-link">
+    <img src="../IMAGES/Icons/SubscriptionIcon.png">
+  </div>
+  <div class="sidebar-link">
+    <img src="../IMAGES/Icons/OriginalsIcon.png">
+  </div>
+  <div class="sidebar-link">
+    <img src="../IMAGES/Icons/MusicIcon.png">
+  </div>
+  <div class="sidebar-link">
+    <img src="../IMAGES/Icons/LibraryIcon.png">
+  </div>
+</nav>
+
+<main>
+  <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a target="_blank" href="https://youtu.be/n2RNcPRtAiY?si=tXfkIflazF350Q3T" class="video-click">
+              <img class="thumbnail" src="../IMAGES/Thumbnails/thumbnail-1.webp">
+            </a>
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="profile-pic-grid">
+              <div class="profile-pic-box">
+                <img class="profile-pic" src="../IMAGES/Profile-Pictures/channels1_profile.jpg">
+                <div class="profile-preview">
+                  <div class="profile-preview-pic-box">
+                    <img class="profile-profile-pic" src="../IMAGES/Profile-Pictures/channels1_profile.jpg">
+                  </div>
+                  <div class="profile-about">
+                    <div class="profile-title">Marques Brownlee</div>
+                    <div class="profile-stats">18.5M subscribers</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+                <a target="_blank" href="https://youtu.be/n2RNcPRtAiY?si=tXfkIflazF350Q3T" class="title-click">
+                  <p class="video-title">
+                  Talking Tech and AI with Google CEO Sundar Pichai!
+                  </p>
+                </a>
+                <p class="video-author">
+                  Marques Brownlee
+                </p>
+                <p class="video-stats">
+                  3.4M views &#183; 6 months ago
+                </p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+              <div class="thumbnail-row">
+                <a target="_blank" href="https://youtu.be/mP0RAo9SKZk?si=dlOAK1OUOKxL8pxw" class="video-click">
+                  <img class="thumbnail" src="../IMAGES/Thumbnails/thumbnail-2.webp">
+                </a>
+                <div class="video-time">8:20</div>
+              </div>
+              <div class="video-info-grid">
+                <div class="profile-pic-grid">
+                  <div class="profile-pic-box">
+                    <img class="profile-pic" src="../IMAGES/Profile-Pictures/channel2_profile.jpg">
+                    <div class="profile-preview">
+                      <div class="profile-preview-pic-box">
+                        <img class="profile-profile-pic" src="../IMAGES/Profile-Pictures/channel2_profile.jpg">
+                      </div>
+                      <div class="profile-about">
+                        <div class="profile-title">Markiplier</div>
+                        <div class="profile-stats">30M subscribers</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <div class="video-info">
+                    <a target="_blank" href="https://www.youtube.com/@markiplier" class="title-click">
+                      <p class="video-title">
+                        Laugh and you die #9
+                      </p>
+                    </a>
+                    <p class="video-author">
+                      Markiplier
+                    </p>
+                    <p class="video-stats">
+                      19M views &#183; 4 months ago
+                    </p>
+                  </div>
+              </div>
+        </div>
+        <div class="video-preview">
+              <div class="thumbnail-row">
+                <a target="_blank" href="https://youtu.be/G3e-cpL7ofc?si=pSpuQtv3QfP3TnJm" class="video-click">
+                  <img class="thumbnail" src="../IMAGES/Thumbnails/thumbnail-3.webp">
+                </a>
+                <div class="video-time">6:31:24</div>
+              </div>
+              <div class="video-info-grid">
+                <div class="profile-pic-grid">
+                  <div class="profile-pic-box">
+                    <img class="profile-pic" src="../IMAGES/Profile-Pictures/channel3.jpg">
+                    <div class="profile-preview">
+                      <div class="profile-preview-pic-box">
+                        <img class="profile-profile-pic" src="../IMAGES/Profile-Pictures/channel3.jpg">
+                      </div>
+                      <div class="profile-about">
+                        <div class="profile-title">SuperSimpleDev</div>
+                        <div class="profile-stats">400k subscribers</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <div class="video-info">
+                    <a target="_blank" href="https://youtu.be/G3e-cpL7ofc?si=pSpuQtv3QfP3TnJm" class="title-click">
+                      <p class="video-title">
+                        HTML & CSS Full Course - Beginner to Pro
+                      </p>
+                    </a>
+                    <p class="video-author">
+                      SuperSimpleDev
+                    </p>
+                    <p class="video-stats">
+                      8.5M views &#183; 2 years ago
+                    </p>
+                  </div>
+              </div>
+            </div>
+        <div class="video-preview">
+              <div class="thumbnail-row">
+                <img class="thumbnail" src="../IMAGES/Thumbnails/thumbnail-4.webp">
+                <div class="video-time">22:09</div>
+              </div>
+              <div class="video-info-grid">
+                <div class="channel-picture">
+                  <img class="profile-pic" src="../IMAGES/Profile-Pictures/channel4_.jpg">
+                </div >
+                  <div class="video-info">
+                    <p class="video-title">
+                      The Simplest Math Problem No One Can Solve - Collatz Conjecture
+                    </p>
+                    <p class="video-author">
+                      Veritasium
+                    </p>
+                    <p class="video-stats">
+                      38M views &#183; 2 years ago
+                    </p>
+                  </div>
+              </div>
+        </div>
+        <div class="video-preview">
+                  <div class="thumbnail-row">
+                    <img class="thumbnail" src="../IMAGES/Thumbnails/thumbnail-5.webp">
+                    <div class="video-time">0:31</div>
+                  </div>
+                  <div class="video-info-grid">
+                    <div class="channel-picture">
+                      <img class="profile-pic" src="../IMAGES/Profile-Pictures/channel5.jpg">
+                    </div >
+                      <div class="video-info">
+                        <p class="video-title">
+                          Black Flash sound redesign
+                        </p>
+                        <p class="video-author">
+                          Sleep
+                        </p>
+                        <p class="video-stats">
+                          702k views &#183; 1 months ago
+                        </p>
+                      </div>
+                  </div>
+        </div>
+        <div class="video-preview">
+              <div class="thumbnail-row">
+                <img class="thumbnail" src="../IMAGES/Thumbnails/thumbnail-6.webp">
+                <div class="video-time">4:39</div>
+              </div>
+              <div class="video-info-grid">
+                <div class="channel-picture">
+                  <img class="profile-pic" src="../IMAGES/Profile-Pictures/channel6.jpg">
+                </div >
+                  <div class="video-info">
+                    <p class="video-title">
+                      goosebumps by travis scott but its painfully offbeat
+                    </p>
+                    <p class="video-author">
+                      Off beat studios
+                    </p>
+                    <p class="video-stats">
+                      557k views &#183; 3 years ago
+                    </p>
+                  </div>
+              </div>
+        </div>      <div class="video-preview">
+              <div class="thumbnail-row">
+                <img class="thumbnail" src="../IMAGES/Thumbnails/thumbnail-6.webp">
+                <div class="video-time">4:39</div>
+              </div>
+              <div class="video-info-grid">
+                <div class="channel-picture">
+                  <img class="profile-pic" src="../IMAGES/Profile-Pictures/channel6.jpg">
+                </div >
+                  <div class="video-info">
+                    <p class="video-title">
+                      goosebumps by travis scott but its painfully offbeat
+                    </p>
+                    <p class="video-author">
+                      Off beat studios
+                    </p>
+                    <p class="video-stats">
+                      557k views &#183; 3 years ago
+                    </p>
+                  </div>
+              </div>
+        </div>      <div class="video-preview">
+              <div class="thumbnail-row">
+                <img class="thumbnail" src="../IMAGES/Thumbnails/thumbnail-6.webp">
+                <div class="video-time">4:39</div>
+              </div>
+              <div class="video-info-grid">
+                <div class="channel-picture">
+                  <img class="profile-pic" src="../IMAGES/Profile-Pictures/channel6.jpg">
+                </div >
+                  <div class="video-info">
+                    <p class="video-title">
+                      goosebumps by travis scott but its painfully offbeat
+                    </p>
+                    <p class="video-author">
+                      Off beat studios
+                    </p>
+                    <p class="video-stats">
+                      557k views &#183; 3 years ago
+                    </p>
+                  </div>
+              </div>
+        </div>      <div class="video-preview">
+              <div class="thumbnail-row">
+                <img class="thumbnail" src="../IMAGES/Thumbnails/thumbnail-6.webp">
+                <div class="video-time">4:39</div>
+              </div>
+              <div class="video-info-grid">
+                <div class="channel-picture">
+                  <img class="profile-pic" src="../IMAGES/Profile-Pictures/channel6.jpg">
+                </div >
+                  <div class="video-info">
+                    <p class="video-title">
+                      goosebumps by travis scott but its painfully offbeat
+                    </p>
+                    <p class="video-author">
+                      Off beat studios
+                    </p>
+                    <p class="video-stats">
+                      557k views &#183; 3 years ago
+                    </p>
+                  </div>
+              </div>
+        </div>      <div class="video-preview">
+              <div class="thumbnail-row">
+                <img class="thumbnail" src="../IMAGES/Thumbnails/thumbnail-6.webp">
+                <div class="video-time">4:39</div>
+              </div>
+              <div class="video-info-grid">
+                <div class="channel-picture">
+                  <img class="profile-pic" src="../IMAGES/Profile-Pictures/channel6.jpg">
+                </div >
+                  <div class="video-info">
+                    <p class="video-title">
+                      goosebumps by travis scott but its painfully offbeat
+                    </p>
+                    <p class="video-author">
+                      Off beat studios
+                    </p>
+                    <p class="video-stats">
+                      557k views &#183; 3 years ago
+                    </p>
+                  </div>
+              </div>
+        </div>      <div class="video-preview">
+              <div class="thumbnail-row">
+                <img class="thumbnail" src="../IMAGES/Thumbnails/thumbnail-6.webp" alt="">
+                <div class="video-time">4:39</div>
+              </div>
+              <div class="video-info-grid">
+                <div class="channel-picture">
+                  <img class="profile-pic" src="../IMAGES/Profile-Pictures/channel6.jpg" alt="">
+                </div >
+                  <div class="video-info">
+                    <p class="video-title">
+                      goosebumps by travis scott but its painfully offbeat
+                    </p>
+                    <p class="video-author">
+                      Off beat studios
+                    </p>
+                    <p class="video-stats">
+                      557k views &#183; 3 years ago
+                    </p>
+                  </div>
+              </div>
+        </div>      <div class="video-preview">
+              <div class="thumbnail-row">
+                <img class="thumbnail" src="../IMAGES/Thumbnails/thumbnail-6.webp" alt="">
+                <div class="video-time">4:39</div>
+              </div>
+              <div class="video-info-grid">
+                <div class="channel-picture">
+                  <img class="profile-pic" src="../IMAGES/Profile-Pictures/channel6.jpg" alt="">
+                </div >
+                  <div class="video-info">
+                    <p class="video-title">
+                      goosebumps by travis scott but its painfully offbeat
+                    </p>
+                    <p class="video-author">
+                      Off beat studios
+                    </p>
+                    <p class="video-stats">
+                      557k views &#183; 3 years ago
+                    </p>
+                  </div>
+              </div>
+        </div>
+  </section>
+</main>
+</body>
+</html>
