@@ -1,0 +1,51 @@
+.container{
+  box-shadow:1px 1px 10px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  padding-left: 15px;
+  padding-top: 10px;
+  max-width: 370px;
+}
+.body{
+  font-family: Arial;
+  padding-bottom: 5px;
+}
+.heading{
+  font-size: 15px;
+  color: rgb(100,100,100);
+  margin-bottom: 20px;
+}
+.flex-mail-preview{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.profile-picture{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.flex-mail-preview-box{
+  margin-left: 10px;
+  width: 300px;
+}
+.flex-first-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.from{
+  font-size: 18px;
+  font-weight: bold;
+}
+.temporal{
+  font-size: 15px;
+  color:rgb(100,100,100);
+}
+.subject{
+  font-size: 16px;
+  font-weight:bold;
+}
+.description{
+  color: rgb(100,100,100);
+}
+

@@ -1,0 +1,23 @@
+div{
+  font-family: "Comfortaa", serif;
+}
+
+.container{
+  border: 1px rgb(150,150,150) solid;
+  border-radius: 7px;
+  width: 300px;
+}
+.flexbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 10px;
+}
+.count{
+  background-color: #3271fc;
+  padding: 8px 15px;
+  border-radius: 28px;s
+  color: white;
+
+}

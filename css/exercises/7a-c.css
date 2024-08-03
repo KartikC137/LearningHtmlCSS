@@ -1,0 +1,17 @@
+img {
+  width:500px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.yakuza-scary-face{
+  border-radius: 20px;
+}
+.samurai-jack-a{
+  height: 500px;
+  object-fit: fill;
+}
+.samurai-jack-b{
+  height: 500px;
+  border-radius: 250px;
+}

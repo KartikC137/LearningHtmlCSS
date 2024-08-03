@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>4j</title>
+</head>
+<body>
+  <button class="a">
+    Shadow
+  </button>
+</body>
+<style>
+  .a{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    font-size: 15px;
+    cursor: pointer;
+    padding: 7px 17px;
+    transition: margin 0.15s,box-shadow 0.15s;
+  }
+  .a:active{
+    margin: 5px 10px;
+    box-shadow: none;
+  }
+</style>
+</html>

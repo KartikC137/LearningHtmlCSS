@@ -1,0 +1,32 @@
+p{
+  font-family: Arial, serif;
+  font-size: 40px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+  margin-left: 5px
+}
+input{
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  width: 375px;
+  border: none;
+  background-color: lightgray;
+  padding: 10px 20px;
+  border-radius: 1px
+}
+button{
+  margin-top: 27px;
+  padding: 10px 15px;
+  border-radius: 0;
+  border: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 150px;
+  color: white;
+  background-color:black;
+}
+.b{
+  color: black;
+  background-color:lightgray;
+}
